@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.cache
+*.pytest_cache/
+.cache/
+
+# Environments
+.env
+
+# VSCode settings
+.vscode/
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Alembic
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Logs
+*.log
+
+# Database files (si usas sqlite, por ejemplo)
+*.db
+*.sqlite3
+
+# Frontend build output (si usas React, Angular, Vue, etc)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# MacOS
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+
+# Pycharm
+*.iml
+
+# Other
+*.swp
+*.swo
